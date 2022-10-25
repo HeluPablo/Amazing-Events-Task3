@@ -33,75 +33,42 @@
     <main>
         <h2 class="fs-1">Stats</h2>
         <table class="table table-bordered border-primary w-50 container">
-            <tr>
-                <td class="bg-danger" colspan="3"><strong>Events statistics</strong></td>
-            </tr>
-            <tr>
-                <td>Events with the highest percentage of attendance</td>
-                <td>Events with the lowest percentage of attendance</td>
-                <td>Event with larger capacity</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td class="bg-danger" colspan="3"><strong>Upcoming Events statistics by category</strong></td>
-            </tr>
-            <tr>
-                <td>Categories</td>
-                <td>Revenues</td>
-                <td>Percentage of attendance</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td class="bg-danger" colspan="3"><strong>Past Events statistics by category</strong></td>
-            </tr>
-            <tr>
-                <td>Categories</td>
-                <td>Revenues</td>
-                <td>Percentage of attendance</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
+            <thead>
+                <tr>
+                    <td class="bg-danger" colspan="3"><strong>Events statistics</strong></td>
+                </tr>
+            </thead>
+            <tbody id="filaUno">
+                <tr>
+                    <td>Events with the highest percentage of attendance</td>
+                    <td>Events with the lowest percentage of attendance</td>
+                    <td>Event with larger capacity</td>
+                </tr>
+            </tbody>
+            <thead>
+                <tr>
+                    <td class="bg-danger" colspan="3"><strong>Upcoming Events statistics by category</strong></td>
+                </tr>
+            </thead>
+            <tbody id="filaDos">
+                <tr>
+                    <td>Categories</td>
+                    <td>Revenues</td>
+                    <td>Percentage of attendance</td>
+                </tr>
+            </tbody>
+            <thead>
+                <tr>
+                    <td class="bg-danger" colspan="3"><strong>Past Events statistics by category</strong></td>
+                </tr>
+            </thead>
+            <tbody id="filaTres">
+                <tr>
+                    <td>Categories</td>
+                    <td>Revenues</td>
+                    <td>Percentage of attendance</td>
+                </tr>
+            </tbody>
         </table>
     </main>
     <footer class="d-flex align-items-center">
@@ -114,6 +81,8 @@
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/936d7c79ce.js" crossorigin="anonymous"></script>
+    <script src="./sprints/data.js"></script>
+    <script src="./sprints/stats.js"></script>
 </body>
 
 </html>
